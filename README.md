@@ -26,14 +26,24 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+- .map() will always return us an array, while .forEach() will return the action that is told inside the loop, so it might not return an array.
 
 2. Explain the difference between a callback and a higher order function.
+- Callback is a function, that can be passed as an argument inside another function.
+- Higher-order function is the function that can receive callback as its argument.
 
 3. What is closure?
+- Closure is when JS functions are looking outward for contexts.
 
 4. Describe the four rules of the 'this' keyword.
+- Global Binding: This keyword when used globally provides all capabilities of JS 
+- Implicit Binding: Implicit binding occurs when dot notation is used to invoke a function.
+- New Binding: New binding creates a new object from a constructor with the help of this keyword to define keys of the new object
+- Explicit Binding: Explicit binding allows to create Child constructor by referencing parent constructor with .call(this) function and inherit parent constructor's properties
 
 5. Why do we need super() in an extended class?
+super() inherits prototypes from parent class, so that child can use those prototypes if needed.
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
